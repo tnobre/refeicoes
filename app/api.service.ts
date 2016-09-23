@@ -19,7 +19,7 @@ export class ApiService {
   
   constructor (private http: Http) {}
   
-  private diasUrl = 'http://localhost:8080/semana';  // URL to web API
+  private diasUrl = 'http://localhost:8080/semana';  // URL to web A P I
   //private diasUrl = 'http://gturnquist-quoters.cfapps.io/api/random';
 
   getDias (): Observable<Dia[]> {
