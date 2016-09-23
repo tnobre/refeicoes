@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    /*border: 1px solid red*/;
+}
+.col-1 {width: 14.28%;}
+
+.items {
+  list-style-type: none;
+}

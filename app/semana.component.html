@@ -1,0 +1,9 @@
+<h2>Refeições do dia</h2>
+<div class="row">
+	<div *ngFor="let dia of dias" class="col-1">
+		<ul>{{dia.dia | uppercase }}
+			<li class="items" *ngFor="let ref of dia.refs"
+				[@estadoRef]="ref.state" (click)="mudaEstadoRef(ref)">{{ref.ref}}</li>
+		</ul>
+	</div>
+</div>
