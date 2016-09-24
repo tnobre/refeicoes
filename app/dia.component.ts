@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-	template: `<h1>OS</h1>`
+	template: `<h2>Refeições do Dia</h2>`
 })
 
 export class DiaComponent {

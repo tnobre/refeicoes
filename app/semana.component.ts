@@ -19,11 +19,11 @@ import 'rxjs/add/operator/toPromise';
 	animations: [
 	    trigger('estadoRef', [
 	      state('inactive', style({
-	        backgroundColor: '#607D8B',
+	        backgroundColor: 'Tomato',
 	        transform: 'scale(1)'
 	      })),
 	      state('active',   style({
-	        backgroundColor: '#cfd8dc',
+	        backgroundColor: 'DodgerBlue',
 	        transform: 'scale(1.0)'
 	      })),
 	      transition('inactive => active', animate('100ms ease-in')),
