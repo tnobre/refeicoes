@@ -15,3 +15,13 @@
 .items {
   list-style-type: none;
 }
+
+.fundo {
+    width: 40%;
+    height: 40%;
+    background: mediumspringgreen;
+}
+
+.quebrar {
+    float: bottom;
+}
